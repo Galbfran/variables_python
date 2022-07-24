@@ -38,3 +38,10 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+print("Ingrese el nombre.")
+nombre = input()
+print("Ingrese el apellido.")
+apellido = input()
+print("Nombre completo:", nombre.lower() , "Apellido:", apellido.lower())
+print("Nombre completo:", nombre.upper() , "Apellido:", apellido.upper())
+print("Nombre completo:", nombre.capitalize() , "Apellido:", apellido.capitalize())
